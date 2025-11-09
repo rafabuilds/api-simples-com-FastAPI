@@ -8,7 +8,7 @@ app = FastAPI()
 PRODUTOS = [
     {
         "id": 1,
-        "codigo_produto": "FIT-BIO-000",
+        "codigo_produto": "FIT-BIO-001",
         "nome": "Fitmass Bioscan",
         "descricao": "Balança de bioimpedância com tela de x polegadas.",
         "preco": 8599.00, # Preços devem ser números, definidos como float ou decimal.
@@ -19,7 +19,7 @@ PRODUTOS = [
     {
         "id": 2,
         "codigo_produto": "FIT-POC-001",
-        "nome": "Fitmass Pocket - Personal", # Ou para Academias.
+        "nome": "Fitmass Pocket", 
         "descricao": "App de gestão de alunos para personal trainers (até 100 alunos) ou nutricionistas.",
         "preco": 49.90,
         "tipo": "Software",
